@@ -107,7 +107,7 @@ int main()
 {
 	cout<<"\t\t\t\t\tWelcome to Snake Game\n"<<"\t\t\t\t\tPress Any Key to Start";
 	getch();
-	while(game!=true)
+	while(!game)
 	{
 	 draw();
 	 key();
